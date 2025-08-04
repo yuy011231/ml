@@ -1,0 +1,18 @@
+# pyproject.toml
+
+[project]
+name = "ml"
+version = "0.1.0"
+description = "study ml"
+requires-python = ">=3.11"
+
+dependencies = [
+    "jupyterlab", # JupyterLab本体
+    "pandas", # データ分析ライブラリ
+    "matplotlib", # グラフ描画ライブラリ
+    "seaborn", # より高度なグラフ描画ライブラリ # 機械学習ライブラリ
+    "scikit-learn",
+    "lightgbm>=4.6.0",
+]
+
+[tool.uv]
